@@ -1,0 +1,66 @@
+/* ESTILOS GENERALES DEL BODY */
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background-color: #f8f6f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* FONDO DE LA CABECERA */
+header {
+  background-color: #342c3a;
+  color: white;
+  padding: 20px;
+}
+
+/* COLOR DE LOS ENLACES */
+a {
+  color: #b46b45;
+  text-decoration: none;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+  padding: 20px;
+}
+
+/* TARJETAS DE LIBROS */
+article {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+/* IMÁGENES DE LOS LIBROS */
+article img {
+  width: 100px;
+  height: auto;
+}
+
+/* RESUMEN DEL CARRITO */
+.resumen {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* BOTONES */
+button {
+  background-color: #342c3a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* BARRA DE NAVEGACIÓN */
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+}
