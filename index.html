@@ -59,25 +59,27 @@
       <section>
         <h2>Recomendados</h2>
 
-        <article>
+        <article class="card">
           <h3>
             <a href="detalle.html">El silencio de la ciudad blanca</a>
           </h3>
+          <span class="badge">Nuevo</span>
           <p>Eva García Sáenz de Urturi</p>
           <p>20,90 €</p>
           <button type="button">Añadir a la cesta</button>
         </article>
 
-        <article>
+        <article class="card">
           <h3>
             <a href="detalle.html">La paciente silenciosa</a>
           </h3>
+          <span class="badge"></span>
           <p>Alex Michaelides</p>
           <p>19,90 €</p>
           <button type="button">Añadir a la cesta</button>
         </article>
 
-        <article>
+        <article class="card">
           <h3>
             <a href="detalle.html">La chica del tren</a>
           </h3>
@@ -110,3 +112,7 @@
     </nav>
   </body>
 </html>
+<!-- Comprobación DevTools:
+     Selector: $$('article:has(.badge:not(:empty))')
+     Resultado: 1 elemento (article.card)
+-->

@@ -1,3 +1,7 @@
+:root {
+  --color-primary: #2563eb;
+}
+
 /* ESTILOS GENERALES DEL BODY */
 body {
   font-family: Arial, sans-serif;
@@ -63,4 +67,38 @@ nav ul {
   list-style: none;
   padding: 15px;
   margin: 0;
+}
+
+/* PESTAÑA ACTIVA */
+nav a[aria-current="page"] {
+  color: #7b3f61;
+  font-weight: bold;
+}
+
+nav a:not([aria-current="page"]) {
+  color: gray;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+h2 + .card {
+  border: 2px solid var(--color-primary);
+}
+
+.badge:empty {
+  display: none;
+}
+
+article:has(.badge:not(:empty)) {
+  border: 2px solid var(--color-primary);
+}
+
+button[aria-label] {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
